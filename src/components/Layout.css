@@ -1,0 +1,22 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.total-price {
+  text-align: right;
+  margin-right: 50px;
+  margin-bottom: 20px;
+  margin-top: 1rem;
+  font-size: 20px;
+}
+.btn-logout{
+  border:none;
+  padding:10px;
+  background: red;
+  border-radius: 10px;
+}
+.btn-logout:hover{
+  background: rgb(0,6,59);
+  transition-delay: .10s ease-in;
+}
